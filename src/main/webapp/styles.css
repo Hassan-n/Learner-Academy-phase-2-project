@@ -1,0 +1,507 @@
+.admin-registration-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.errorMessage {
+    color: red;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+}
+
+.portal {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.portal h1 {
+    text-align: center;
+}
+
+.portal th {
+    text-align: center;
+}
+
+.portal form {
+    margin-bottom: 20px;
+    padding:0;
+}
+
+.portal table {
+    width: 100%;
+    height: 95vh;
+    border-collapse: collapse;
+}
+
+.portal td {
+    vertical-align: top;
+}
+
+.portal button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.portal button:hover {
+    background-color: #45a049;
+}
+
+.portal .main-content {
+    padding: 20px;
+}
+
+/* styles.css */
+
+.admin_list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.admin_list h1, .admin_list h2 {
+    text-align: center;
+    color: #333;
+}
+
+.admin_list hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.admin-table th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.admin-table td button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-table td button.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.admin-table td button.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.admin-table td button.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.admin-table td button.delete-btn:hover {
+    background-color: #da190b;
+}
+
+
+table.subject_list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table.subject_list th,
+table.subject_list td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table.subject_list th {
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+table.subject_list td button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+table.subject_list td button.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table.subject_list td button.edit-btn:hover {
+    background-color: #45a049;
+}
+
+table.subject_list td button.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+table.subject_list td button.delete-btn:hover {
+    background-color: #da190b;
+}
+
+button.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.button:hover {
+    background-color: #45a049;
+}
+
+table.subject_list form{
+	padding: 0;
+}
+
+
+/* styles.css */
+
+.teacher_list {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+.teacher_list h1, .teacher_list h2 {
+    text-align: center;
+    color: #333;
+}
+
+.teacher_list hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.teacher_list th, .teacher_list td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.teacher_list th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.teacher_list td button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.teacher_list td button.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.teacher_list td button.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.teacher_list td button.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.teacher_list td button.delete-btn:hover {
+    background-color: #da190b;
+}
+
+.teacher_list .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.teacher_list .button:hover {
+    background-color: #45a049;
+}
+
+
+/* styles.css */
+
+.student_list {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+.student_list h1 {
+    text-align: center;
+    color: #333;
+}
+
+.student_list hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.student_list th, .student_list td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.student_list th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.student_list td button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student_list td button.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.student_list td button.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.student_list td button.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.student_list td button.delete-btn:hover {
+    background-color: #da190b;
+}
+
+.student_list .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.student_list .button:hover {
+    background-color: #45a049;
+}
+
+.add-class-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-class-button:hover {
+    background-color: #218838;
+}
+
+
+.class-info-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.class-details {
+    margin-bottom: 20px;
+}
+
+.student-list-title {
+    margin-top: 20px;
+}
+
+.student-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.student-list-table th, .student-list-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.student-list-table th {
+    background-color: #f5f5f5;
+    color: #555;
+    font-weight: bold;
+}
+
+.student-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.student-list-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.add-student-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-student-form select {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.class-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.class-list-table th, .class-list-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.class-list-table th {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.class-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.class-list-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+.welcome-container h1 {
+    color: #007bff;
+}
+
+.welcome-container h3 {
+    color: #555;
+}
+
+.welcome-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
